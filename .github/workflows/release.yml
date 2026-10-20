@@ -1,0 +1,51 @@
+
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    name: Package ZohoAmarco
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore dependencies
+        run: dotnet restore ZohoAmarco.sln
+
+      - name: Verify formatting
+        run: dotnet format ZohoAmarco.sln --verify-no-changes --no-restore
+
+      - name: Build
+        run: dotnet build ZohoAmarco.sln --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test ZohoAmarco.sln --configuration Release --no-build
+
+      - name: Publish API
+        run: dotnet publish src/ZohoAmarco.Api/ZohoAmarco.Api.csproj --configuration Release --runtime win-x64 --self-contained true -o artifacts/api
+
+      - name: Publish device agent
+        run: dotnet publish src/ZohoAmarco.DeviceAgent/ZohoAmarco.DeviceAgent.csproj --configuration Release --runtime win-x64 --self-contained true -o artifacts/device-agent
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZohoAmarco-${{ github.ref_name }}
+          path: artifacts/
+          if-no-files-found: error
+          retention-days: 30

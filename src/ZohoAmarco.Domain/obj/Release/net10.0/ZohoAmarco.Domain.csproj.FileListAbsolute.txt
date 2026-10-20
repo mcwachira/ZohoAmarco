@@ -1,0 +1,11 @@
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\bin\Release\net10.0\ZohoAmarco.Domain.deps.json
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\bin\Release\net10.0\ZohoAmarco.Domain.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\bin\Release\net10.0\ZohoAmarco.Domain.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\refint\ZohoAmarco.Domain.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ZohoAmarco.Domain.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Domain\obj\Release\net10.0\ref\ZohoAmarco.Domain.dll

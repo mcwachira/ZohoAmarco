@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ZohoAmarco.Infrastructure/1.0.0": {
+        "dependencies": {
+          "ZohoAmarco.Application": "1.0.0",
+          "ZohoAmarco.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ZohoAmarco.Infrastructure.dll": {}
+        }
+      },
+      "ZohoAmarco.Application/1.0.0": {
+        "dependencies": {
+          "ZohoAmarco.Domain": "1.0.0"
+        },
+        "runtime": {
+          "ZohoAmarco.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ZohoAmarco.Domain/1.0.0": {
+        "runtime": {
+          "ZohoAmarco.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZohoAmarco.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZohoAmarco.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZohoAmarco.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

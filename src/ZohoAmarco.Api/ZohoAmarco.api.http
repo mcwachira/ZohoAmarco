@@ -1,0 +1,6 @@
+@ZohoAmarco.api_HostAddress = http://localhost:5252
+
+GET {{ZohoAmarco.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

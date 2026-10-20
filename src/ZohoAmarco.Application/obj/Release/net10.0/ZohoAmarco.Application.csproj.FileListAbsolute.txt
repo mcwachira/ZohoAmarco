@@ -1,0 +1,15 @@
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\bin\Release\net10.0\ZohoAmarco.Application.deps.json
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\bin\Release\net10.0\ZohoAmarco.Application.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\bin\Release\net10.0\ZohoAmarco.Application.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\bin\Release\net10.0\ZohoAmarco.Domain.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\bin\Release\net10.0\ZohoAmarco.Domain.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmar.1B27D64E.Up2Date
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\refint\ZohoAmarco.Application.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ZohoAmarco.Application.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Application\obj\Release\net10.0\ref\ZohoAmarco.Application.dll

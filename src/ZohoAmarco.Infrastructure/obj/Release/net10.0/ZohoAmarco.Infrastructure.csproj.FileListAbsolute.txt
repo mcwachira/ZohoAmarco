@@ -1,0 +1,17 @@
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Infrastructure.deps.json
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Infrastructure.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Infrastructure.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Application.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Domain.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Application.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\bin\Release\net10.0\ZohoAmarco.Domain.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.AssemblyInfo.cs
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmar.2113B52C.Up2Date
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\refint\ZohoAmarco.Infrastructure.dll
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ZohoAmarco.Infrastructure.pdb
+C:\Users\pc\Documents\GitHub\ZohoAmarcoMiddleware\src\ZohoAmarco.Infrastructure\obj\Release\net10.0\ref\ZohoAmarco.Infrastructure.dll
