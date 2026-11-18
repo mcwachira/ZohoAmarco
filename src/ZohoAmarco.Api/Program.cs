@@ -1,8 +1,33 @@
+using Microsoft.EntityFrameworkCore;
+using ZohoAmarco.Application.Fiscalization;
+using ZohoAmarco.Application.Fiscalization.Abstractions;
+using ZohoAmarco.Infrastructure.Persistence;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+// Register OpenAPI support.
 builder.Services.AddOpenApi();
+
+// Register an injectable UTC time provider.
+builder.Services.AddSingleton<TimeProvider>(TimeProvider.System);
+
+// Configure SQL Server persistence.
+var connectionString =
+    builder.Configuration.GetConnectionString("FiscalizationDatabase")
+    ?? throw new InvalidOperationException(
+        "Connection string 'FiscalizationDatabase' is missing.");
+
+builder.Services.AddDbContext<FiscalizationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+
+// Register the persistence repository.
+builder.Services.AddScoped<
+    IFiscalizationRequestRepository,
+    FiscalizationRequestRepository>();
+
+// Register the application service.
+// The physical fiscal device is intentionally not registered yet.
+builder.Services.AddScoped<FiscalizationService>();
 
 var app = builder.Build();
 
@@ -14,28 +39,12 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
+// This basic health endpoint does not check database or device connectivity.
+app.MapGet("/health", () => Results.Ok(new
+    {
+        Status = "Healthy",
+        Application = "ZohoAmarco.Api"
+    }))
+    .WithName("HealthCheck");
 
 app.Run();
-
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
