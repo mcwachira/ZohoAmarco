@@ -131,3 +131,10 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+# Visual Studio / .NET generated files
+**/bin/
+**/obj/
+
+# IDE files
+.idea/
+.vs/
